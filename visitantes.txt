@@ -1,0 +1,1 @@
+rolando,38,sic:\users\garci\appdata\local\python\pythoncore-3.14-64\python.exe c:/python/algoritmos/manejo-archivos.py,c:\users\garci\appdata\local\python\pythoncore-3.14-64\python.exe c:/python/algoritmos/manejo-archivos.py
