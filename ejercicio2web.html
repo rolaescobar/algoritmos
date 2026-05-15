@@ -13,14 +13,18 @@
              style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
     </div>
 
-    <button class="btn btn-success" onclick="aumentarProgreso()">Aumentar +25%</button>
+   <div class="spinner-border text-primary" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+
+    <button disabled class="btn btn-success" onclick="aumentarProgreso()">Aumentar +25%</button>
 
     <script>
         let avance = 0;
         function aumentarProgreso() {
             const barra = document.getElementById('miBarra');
             if (avance < 100) {
-                avance += 25;
+                avance += 75;
                 barra.style.width = avance + '%';
                 barra.innerText = avance + '%';
                 barra.setAttribute('aria-valuenow', avance);
